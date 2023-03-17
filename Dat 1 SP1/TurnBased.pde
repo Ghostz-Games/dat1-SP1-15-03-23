@@ -67,7 +67,7 @@ void keyReleased() {
             player.attackPoints -=1;
       break;
       }
-      default:
+      default://if any other key is pressed other than the defined cases.
         if(output.length() >= 0) {
           player.attackPoints -=1;
           output = output + key;
